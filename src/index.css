@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+@layer base {
+  :root {
+    /* Blue, Green & Orange Finance Palette */
+    --background: 0 0% 100%;
+    --foreground: 215 30% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 30% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 30% 15%;
+
+    /* Primary Blue - Trust & Professionalism */
+    --primary: 210 75% 42%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Light grey-blue for secondary */
+    --secondary: 210 25% 96%;
+    --secondary-foreground: 215 30% 20%;
+
+    /* Muted greys */
+    --muted: 210 20% 95%;
+    --muted-foreground: 215 15% 45%;
+
+    /* Green Accent - Growth & Money */
+    --accent: 152 55% 94%;
+    --accent-foreground: 152 60% 30%;
+
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 25% 88%;
+    --input: 210 25% 88%;
+    --ring: 210 75% 42%;
+
+    --radius: 0.5rem;
+
+    /* Custom tokens */
+    --surface-elevated: 152 30% 97%;
+    --text-muted: 215 12% 50%;
+    
+    /* Green for success/highlights */
+    --highlight: 152 55% 38%;
+    --highlight-foreground: 0 0% 100%;
+    
+    /* Orange for CTAs and attention */
+    --orange: 28 90% 52%;
+    --orange-foreground: 0 0% 100%;
+    
+    --success: 152 55% 38%;
+    --success-foreground: 0 0% 100%;
+  }
+
+  .dark {
+    --background: 215 30% 10%;
+    --foreground: 210 25% 95%;
+
+    --card: 215 30% 12%;
+    --card-foreground: 210 25% 95%;
+
+    --popover: 215 30% 12%;
+    --popover-foreground: 210 25% 95%;
+
+    --primary: 210 70% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 215 25% 18%;
+    --secondary-foreground: 210 25% 90%;
+
+    --muted: 215 25% 18%;
+    --muted-foreground: 210 15% 60%;
+
+    --accent: 152 40% 20%;
+    --accent-foreground: 152 50% 70%;
+
+    --destructive: 0 60% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 25% 22%;
+    --input: 215 25% 22%;
+    --ring: 210 70% 55%;
+
+    --surface-elevated: 152 20% 14%;
+    --text-muted: 210 15% 55%;
+    --highlight: 152 50% 50%;
+    --highlight-foreground: 0 0% 100%;
+    --orange: 28 85% 55%;
+    --orange-foreground: 0 0% 100%;
+    --success: 152 50% 45%;
+    --success-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight text-foreground;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .card-shadow {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.05), 0 1px 2px -1px rgb(0 0 0 / 0.05);
+  }
+
+  .card-shadow-hover {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.08), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  }
+}
