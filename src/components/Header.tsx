@@ -77,16 +77,17 @@ const Header = () => {
 
           {/* MOBILE BUTTON */}
           <button
-            className={`flex h-10 w-10 items-center justify-center rounded-md md:hidden ${
-              showTransparent
-                ? "text-white hover:bg-white/10"
-                : "text-slate-900 hover:bg-slate-100"
-            }`}
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
-          </button>
+  className={`flex h-10 w-10 items-center justify-center rounded-md md:hidden ${
+    showTransparent
+      ? "text-slate-900 hover:bg-slate-200/60"
+      : "text-slate-900 hover:bg-slate-100"
+  }`}
+  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+  aria-label="Toggle menu"
+>
+  {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
+</button>
+
         </div>
 
         {/* MOBILE NAV */}
