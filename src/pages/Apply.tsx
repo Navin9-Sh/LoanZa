@@ -71,7 +71,7 @@ const Apply = () => {
     try {
       // Using FormSubmit.co for no-backend email submission
       // Replace 'YOUR_EMAIL@example.com' with the owner's actual email
-      const response = await fetch("https://formsubmit.co/ajax/ns4281692@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/loanzaoof@gmail.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -89,8 +89,16 @@ const Apply = () => {
       });
 
       if (response.ok) {
-        setIsSubmitted(true);
-      } else {
+      setIsSubmitted(true);
+
+      // 🔥 Scroll to top after successful submit
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+ else {
         throw new Error("Submission failed");
       }
     } catch (error) {

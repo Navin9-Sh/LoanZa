@@ -27,7 +27,7 @@ const Index = () => {
       {/* Hero Section */}
       <section
    className="relative h-screen bg-cover bg-center -mt-16"
-  style={{ backgroundImage: "url('/images/image1.png')" }}
+  style={{ backgroundImage: "url('/images/image1.jpg')" }}
 >
   {/* overlay */}
   <div className="bg-black/20">

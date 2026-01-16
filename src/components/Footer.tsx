@@ -10,22 +10,20 @@ const Footer = () => {
         <div className="grid gap-8 md:grid-cols-3">
           {/* Company Info */}
           <div>
-            <Link to="/" className="flex items-center gap-2">
-  {/* Icon */}
-  <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white border border-slate-300">
-    <span className="text-lg font-extrabold leading-none">
-      <span className="text-orange-500">L</span>
-      <span className="text-slate-900 -ml-[0.15em]">L</span>
-    </span>
-  </div>
+                    {/* LOGO */}
+                <Link to="/" className="flex items-center gap-2">
+          {/* Icon */}
+        <div className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-400 text-white font-extrabold">
+          LZ
+        </div>
 
-  {/* Brand name */}
-  <span className="text-xl font-extrabold tracking-wide">
-    <span className="text-orange-500">Loan</span>
-<span className="text-black">Za</span>
 
-  </span>
-</Link>
+          {/* Brand */}
+          <span className="relative text-xl font-extrabold tracking-wide text-slate-900">
+            <span className="text-xl font-extrabold text-slate-100">Loanza</span>
+            <sup className="text-xs ml-0.5 text-slate-500">®</sup>
+          </span>
+        </Link>
 
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
               Your trusted partner for hassle-free loan assistance. We help you find the right loan 

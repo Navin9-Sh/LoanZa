@@ -35,20 +35,20 @@ const Header = () => {
       <div className="section-container">
         <div className="flex h-16 items-center justify-between">
           {/* LOGO */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white border border-slate-300">
-              <span className="text-lg font-extrabold leading-none">
-                <span className="text-orange-500">L</span>
-                <span className="text-slate-900 -ml-[0.15em]">L</span>
-              </span>
-            </div>
+         <Link to="/" className="flex items-center gap-2">
+  {/* Icon */}
+<div className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-400 text-white font-extrabold">
+  LZ
+</div>
 
-            <span className="text-xl font-extrabold tracking-wide">
-  <span className="text-orange-500">Loan</span>Za
-  <sup className="text-xs ml-0.5 text-slate-500">®</sup>
-</span>
 
-          </Link>
+  {/* Brand */}
+  <span className="relative text-xl font-extrabold tracking-wide text-slate-900">
+    <span className="text-xl font-extrabold text-slate-800">Loanza</span>
+    <sup className="text-xs ml-0.5 text-slate-500">®</sup>
+  </span>
+</Link>
+
 
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex md:items-center md:gap-1">
