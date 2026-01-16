@@ -16,7 +16,8 @@ const bgImageMap: Record<string, string> = {
 const HighlightCard = ({ title, description, icon: Icon }: HighlightCardProps) => {
   return (
     <div
-      className="relative overflow-hidden rounded-xl border border-slate-300 shadow-sm bg-white"
+className="transition-all duration-300 
+ hover:-translate-y-1 hover:shadow-2xl"
       style={{
         backgroundImage: `url(${bgImageMap[title]})`,
         backgroundSize: "cover",

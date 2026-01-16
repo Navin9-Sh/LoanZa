@@ -44,7 +44,7 @@ const Header = () => {
             </div>
 
             <span className="text-xl font-extrabold tracking-wide">
-  <span className="text-orange-500">Loan</span>za
+  <span className="text-orange-500">Loan</span>Za
   <sup className="text-xs ml-0.5 text-slate-500">®</sup>
 </span>
 

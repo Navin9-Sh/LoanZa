@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const EmiCalculator = () => {
   const [amount, setAmount] = useState(500000);
@@ -80,6 +81,15 @@ const EmiCalculator = () => {
             <p className="text-3xl font-bold text-slate-900 mt-1">
               ₹ {isFinite(emi) ? Math.round(emi).toLocaleString() : 0}
             </p>
+
+            <p className="mt-4 text-center text-sm text-slate-600">
+  Calculated your EMI?{" "}
+  <Link to="/apply" className="font-semibold text-slate-900 underline">
+    Apply in 1 minute
+  </Link>
+</p>
+
+            
           </div>
         </div>
       </div>

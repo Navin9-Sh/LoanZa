@@ -4,6 +4,16 @@
 html, body {
   font-family: "Times New Roman", Times, serif;
 }
+html {
+  scroll-behavior: smooth;
+}
+a {
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+a:hover {
+  transform: translateY(-1px);
+}
 
 
 @layer base {

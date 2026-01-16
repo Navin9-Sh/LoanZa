@@ -61,7 +61,9 @@ const About = () => {
 
           {/* VALUES */}
           <div className="grid gap-8 md:grid-cols-3 mb-12">
-            <div className="text-center p-6 rounded-xl bg-surface-elevated border border-highlight/20">
+<div className="text-center p-6 rounded-xl bg-surface-elevated border border-highlight/20 
+ transition-all duration-300 ease-out 
+ hover:-translate-y-2 hover:shadow-2xl">
               <div className="mb-4 flex justify-center">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-highlight/10">
                   <Heart className="h-6 w-6 text-highlight" />
@@ -76,7 +78,9 @@ const About = () => {
               </p>
             </div>
 
-            <div className="text-center p-6 rounded-xl bg-surface-elevated border border-primary/20">
+<div className="text-center p-6 rounded-xl bg-surface-elevated border border-highlight/20 
+ transition-all duration-300 ease-out 
+ hover:-translate-y-2 hover:shadow-2xl">
               <div className="mb-4 flex justify-center">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                   <Target className="h-6 w-6 text-primary" />
@@ -91,7 +95,9 @@ const About = () => {
               </p>
             </div>
 
-            <div className="text-center p-6 rounded-xl bg-surface-elevated border border-orange/20">
+<div className="text-center p-6 rounded-xl bg-surface-elevated border border-highlight/20 
+ transition-all duration-300 ease-out 
+ hover:-translate-y-2 hover:shadow-2xl">
               <div className="mb-4 flex justify-center">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-orange/10">
                   <Users className="h-6 w-6 text-orange" />

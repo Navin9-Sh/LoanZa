@@ -1,5 +1,5 @@
 import LoanCard from "@/components/LoanCard";
-import { User, Home, Briefcase, GraduationCap, Car } from "lucide-react";
+import { User, Home, Briefcase, GraduationCap, Car, Building } from "lucide-react";
 import EmiCalculator from "@/components/Emicalculator";
 
 const Services = () => {
@@ -11,8 +11,8 @@ const Services = () => {
         "Flexible personal loans for your immediate needs — medical expenses, travel, wedding, or any personal requirement.",
       eligibility: [
         "Age: 21-60 years",
-        "Salaried or self-employed",
-        "Minimum income: ₹15,000/month",
+        "Salaried",
+        "Minimum income: ₹10,000/month",
       ],
     },
     {
@@ -21,9 +21,9 @@ const Services = () => {
       description:
         "Make your dream home a reality with competitive interest rates and longer repayment tenures.",
       eligibility: [
-        "Age: 23-65 years",
+        "Age: 21-65 years",
         "Stable income source",
-        "Good credit score (650+)",
+        "Good CIBIL score (650+)",
       ],
     },
     {
@@ -32,9 +32,10 @@ const Services = () => {
       description:
         "Grow your business with quick financing. Suitable for working capital, expansion, or equipment purchase.",
       eligibility: [
-        "Business vintage: 2+ years",
-        "Annual turnover: ₹10 lakh+",
+        "Business vintage proof: 3+ years",
+        "Stable income source",
         "Valid business registration",
+        "Good CIBIL score (700+)",
       ],
     },
     {
@@ -45,7 +46,7 @@ const Services = () => {
       eligibility: [
         "Admission confirmation required",
         "Co-applicant (parent/guardian)",
-        "Covers tuition + living expenses",
+        "Good CIBIL score (700+)",
       ],
     },
     {
@@ -56,9 +57,23 @@ const Services = () => {
       eligibility: [
         "Age: 21-65 years",
         "Valid driving license",
-        "Minimum income: ₹12,000/month",
+        "Minimum income: ₹25,000/month",
+        "Good CIBIL score (650+)",
       ],
     },
+
+    {
+      icon: Building,
+      title: "Loan Against Property (LAP)",
+      description:
+        "Unlock the value of your residential or commercial property to meet large financial needs at lower interest rates.",
+      eligibility: [
+        "Age: 21–65 years",
+        "Stable income source",
+        "Good CIBIL score (650+)",
+      ],
+    },
+
   ];
 
   return (
@@ -89,6 +104,17 @@ const Services = () => {
           <LoanCard key={index} {...loan} />
         ))}
       </div>
+      {/* Trust Badges */}
+<div className="mt-10 flex flex-wrap justify-center gap-6 text-sm text-slate-600">
+  <span>✔ 100% Confidential</span>
+  <span>✔ No Hidden Charges</span>
+  <span>✔ 24–48 hrs Response</span>
+</div>
+
+
+      {/* Section Separator */}
+<div className="my-8 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent" />
+
 
       {/* EMI Calculator Section */}
       <EmiCalculator />

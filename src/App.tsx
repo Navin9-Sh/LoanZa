@@ -9,6 +9,8 @@ import Services from "./pages/Services";
 import Apply from "./pages/Apply";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "@/components/ScrollToTop";
+
 
 const queryClient = new QueryClient();
 
@@ -41,6 +43,7 @@ const App = () => (
 </a>
 
       <BrowserRouter>
+        <ScrollToTop />
         <MainLayout>
           <Routes>
             <Route path="/" element={<Index />} />

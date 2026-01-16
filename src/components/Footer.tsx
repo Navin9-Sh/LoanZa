@@ -72,7 +72,7 @@ const Footer = () => {
         className="flex items-center gap-3 hover:text-white transition-colors"
       >
         <span>📞</span>
-        <span>+91 98765 43210</span>
+        <span>+91  84213 76852 </span>
       </a>
     </li>
 
@@ -83,7 +83,7 @@ const Footer = () => {
         className="flex items-center gap-3 hover:text-white transition-colors"
       >
         <span>✉️</span>
-        <span>loanzaof@gmail.com</span>
+        <span>loanzaoof@gmail.com</span>
       </a>
     </li>
 
@@ -103,13 +103,13 @@ const Footer = () => {
     {/* WhatsApp */}
 <li>
   <a
-    href="https://wa.me/919876543210?text=Hi%20I%20want%20to%20apply%20for%20a%20loan"
+    href="https://wa.me/ 8421376852 ?text=Hi,%20I%20want%20to%20apply%20for%20a%20loan."
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center gap-3 hover:text-white transition-colors"
   >
     <MessageCircle className="h-5 w-5 text-green-400" />
-    <span>WhatsApp: +91 98765 43210</span>
+    <span>WhatsApp: +91  84213 76852 </span>
   </a>
 </li>
 
@@ -124,6 +124,10 @@ const Footer = () => {
             © {new Date().getFullYear()} LoanZa. All rights reserved. | 
             Loan assistance services only. We are not a direct lender.
           </p>
+          <p className="mt-4 text-xs text-slate-500 text-center">
+            Designed & Developed with care for seamless loan assistance.
+          </p>
+
         </div>
       </div>
     </footer>
