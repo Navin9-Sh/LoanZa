@@ -44,7 +44,7 @@ const Header = () => {
 
   {/* Brand */}
   <span className="relative text-xl font-extrabold tracking-wide text-slate-900">
-    <span className="text-xl font-extrabold text-slate-800">Loanza</span>
+    <span className="text-xl font-extrabold text-slate-800">LoanZa</span>
     <sup className="text-xs ml-0.5 text-slate-500">®</sup>
   </span>
 </Link>

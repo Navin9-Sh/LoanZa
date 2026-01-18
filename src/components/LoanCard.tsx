@@ -11,8 +11,15 @@ interface LoanCardProps {
 
 const LoanCard = ({ title, description, eligibility, icon: Icon }: LoanCardProps) => {
   return (
-    <div className="group rounded-xl border border-border bg-card p-6 card-shadow transition-all hover:card-shadow-hover hover:border-highlight/30">
-      <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+    <div className="group relative rounded-2xl border border-slate-200 bg-white p-8 
+                    transition-all duration-300 
+                    hover:-translate-y-2 hover:shadow-2xl">
+    <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-xl 
+    bg-slate-100 text-slate-900 
+    group-hover:bg-orange-100 group-hover:text-orange-600 
+    transition-colors">
+      
+
         <Icon className="h-6 w-6 text-primary" />
       </div>
       
@@ -33,6 +40,9 @@ const LoanCard = ({ title, description, eligibility, icon: Icon }: LoanCardProps
           ))}
         </ul>
       </div>
+      <span className="absolute right-4 top-4 rounded-full bg-orange-100 px-3 py-1 text-xs font-semibold text-orange-600">
+      Popular
+      </span>,
       
       <Button asChild variant="orange" className="w-full">
         <Link to="/apply">Apply Now</Link>

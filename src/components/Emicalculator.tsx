@@ -14,19 +14,18 @@ const EmiCalculator = () => {
     (Math.pow(1 + monthlyRate, months) - 1);
 
   return (
-    <section className="bg-slate-50 py-16">
+    <section className="bg-white/20 backdrop-blur-sm mt-8 py-8">
       <div className="section-container">
-        <div className="mx-auto max-w-3xl rounded-2xl bg-white p-8 shadow-lg border border-slate-200">
-          <h2 className="text-2xl font-bold text-slate-900 text-center mb-2">
+          <h2 className="text-2xl font-bold text-slate-900 text-center mb-4">
             EMI Calculator
           </h2>
-          <p className="text-center text-slate-600 mb-8">
+          <p className="text-center text-black-600 mb-4">
             Estimate your monthly loan EMI easily
           </p>
 
           {/* Loan Amount */}
           <div className="mb-6">
-            <label className="flex justify-between text-sm font-medium text-slate-700">
+            <label className="flex justify-between text-sm font-medium text-black">
               <span>Loan Amount</span>
               <span>₹ {amount.toLocaleString()}</span>
             </label>
@@ -43,7 +42,7 @@ const EmiCalculator = () => {
 
           {/* Interest Rate */}
           <div className="mb-6">
-            <label className="flex justify-between text-sm font-medium text-slate-700">
+            <label className="flex justify-between text-sm font-medium text-black">
               <span>Interest Rate (%)</span>
               <span>{rate}%</span>
             </label>
@@ -60,7 +59,7 @@ const EmiCalculator = () => {
 
           {/* Tenure */}
           <div className="mb-8">
-            <label className="flex justify-between text-sm font-medium text-slate-700">
+            <label className="flex justify-between text-sm font-medium text-black">
               <span>Tenure (Years)</span>
               <span>{tenure} yrs</span>
             </label>
@@ -92,7 +91,7 @@ const EmiCalculator = () => {
             
           </div>
         </div>
-      </div>
+      
     </section>
   );
 };

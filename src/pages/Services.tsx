@@ -78,21 +78,21 @@ const Services = () => {
 
   return (
     <section
-  className="relative bg-cover bg-center -mt-16"
+  className="relative bg-cover  -mt-16"
   style={{
-    backgroundImage: "url('/images/services.jpg')",
+    backgroundImage: "url('/images/services.png')",
   }}
 >
   {/* Overlay for readability (NO BLUR) */}
-<div className="bg-slate-50/80">
+<div className="bg-transparent">
     <div className="section-container section-padding">
       
       {/* Page Header */}
-      <div className="text-center mb-12">
+      <div className="text-center mb-12 max-w-2xl mx-auto">
         <h1 className="text-3xl font-bold text-slate-900 sm:text-4xl">
           Our Loan Services
         </h1>
-        <p className="mt-4 text-slate-700 max-w-2xl mx-auto leading-relaxed">
+        <p className="mt-2 text-black max-w-2xl mx-auto leading-relaxed">
           We assist with a variety of loan types to meet your financial needs.
           Choose the right loan for you and apply with confidence.
         </p>
@@ -105,7 +105,7 @@ const Services = () => {
         ))}
       </div>
       {/* Trust Badges */}
-<div className="mt-10 flex flex-wrap justify-center gap-6 text-sm text-slate-600">
+<div className="mt-10 flex flex-wrap justify-center gap-6 text-sm text-white">
   <span>✔ 100% Confidential</span>
   <span>✔ No Hidden Charges</span>
   <span>✔ 24–48 hrs Response</span>
