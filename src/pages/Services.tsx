@@ -89,10 +89,10 @@ const Services = () => {
       
       {/* Page Header */}
       <div className="text-center mb-12 max-w-2xl mx-auto">
-        <h1 className="text-3xl font-bold text-slate-900 sm:text-4xl">
+        <h1 className="text-3xl font-bold text-white sm:text-4xl">
           Our Loan Services
         </h1>
-        <p className="mt-2 text-black max-w-2xl mx-auto leading-relaxed">
+        <p className="mt-2 text-white max-w-2xl mx-auto leading-relaxed">
           We assist with a variety of loan types to meet your financial needs.
           Choose the right loan for you and apply with confidence.
         </p>
