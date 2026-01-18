@@ -224,6 +224,8 @@ const Apply = () => {
                       <SelectItem value="Business Loan">Business Loan</SelectItem>
                       <SelectItem value="Education Loan">Education Loan</SelectItem>
                       <SelectItem value="Vehicle Loan">Vehicle Loan</SelectItem>
+                      <SelectItem value="Loan Against Property (LAP)">Loan Against Property (LAP)</SelectItem>
+
                     </SelectContent>
                   </Select>
                 </div>
