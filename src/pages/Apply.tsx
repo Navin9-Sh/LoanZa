@@ -152,16 +152,16 @@ const Apply = () => {
       {/* Trust Strip */}
       <div className="mb-10 grid gap-6 sm:grid-cols-3 text-center">
         <div>
-          <p className="text-sm font-semibold text-emerald-600">✔ 100% Secure</p>
-          <p className="text-xs text-slate-600">Your data is safe with us</p>
+          <p className="text-2sm font-semibold text-emerald-600">✔ 100% Secure</p>
+          <p className="text-2sm text-slate-600">Your data is safe with us</p>
         </div>
         <div>
-          <p className="text-sm font-semibold text-emerald-600">✔ No Hidden Charges</p>
-          <p className="text-xs text-slate-600">Complete transparency</p>
+          <p className="text-2sm font-semibold text-emerald-600">✔ No Hidden Charges</p>
+          <p className="text-2sm text-slate-600">Complete transparency</p>
         </div>
         <div>
-          <p className="text-sm font-semibold text-emerald-600">✔ Quick Response</p>
-          <p className="text-xs text-slate-600">Callback within 24–48 hrs</p>
+          <p className="text-2sm font-semibold text-emerald-600">✔ Quick Response</p>
+          <p className="text-2sm text-slate-600">Callback within 24–48 hrs</p>
         </div>
       </div>
 
@@ -169,9 +169,9 @@ const Apply = () => {
         <div className="mx-auto max-w-xl">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="rounded-xl border border-border bg-card p-6 card-shadow">
-              <div className="space-y-5">
+              <div className="space-y-5 ">
                 {/* Full Name */}
-                <div className="space-y-2">
+                <div className="space-y-2 ">
                   <Label htmlFor="fullName">Full Name *</Label>
                   <Input
                     id="fullName"
@@ -231,7 +231,7 @@ const Apply = () => {
                 </div>
 
                 {/* City */}
-                <div className="space-y-2">
+                <div className="space-y-2 text-sm">
                   <Label htmlFor="city">City *</Label>
                   <Input
                     id="city"
@@ -263,7 +263,7 @@ const Apply = () => {
               {isSubmitting ? "Submitting..." : "Submit Application"}
             </Button>
 
-            <p className="text-center text-xs text-muted-foreground">
+            <p className="text-center text-1xs text-muted-foreground">
               By submitting, you agree to be contacted regarding your loan application.
               Your information is kept confidential.
             </p>

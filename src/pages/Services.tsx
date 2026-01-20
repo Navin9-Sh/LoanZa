@@ -88,8 +88,8 @@ const Services = () => {
     <div className="section-container section-padding">
       
       {/* Page Header */}
-      <div className="text-center mb-12 max-w-2xl mx-auto">
-        <h1 className="text-3xl font-bold text-white sm:text-4xl">
+      <div className="text-center text-lg mb-12 max-w-2xl mx-auto">
+        <h1 className="text-2xl font-bold text-white sm:text-4xl">
           Our Loan Services
         </h1>
         <p className="mt-2 text-white max-w-2xl mx-auto leading-relaxed">
@@ -105,7 +105,7 @@ const Services = () => {
         ))}
       </div>
       {/* Trust Badges */}
-<div className="mt-10 flex flex-wrap justify-center gap-6 text-sm text-white">
+<div className="mt-10 flex flex-wrap justify-center gap-6 text-2sm text-white">
   <span>✔ 100% Confidential</span>
   <span>✔ No Hidden Charges</span>
   <span>✔ 24–48 hrs Response</span>
@@ -122,7 +122,7 @@ const Services = () => {
 
       {/* Note Section */}
       <div className="mt-12 rounded-lg border border-slate-300 bg-white/95 p-6 text-center">
-        <p className="text-sm text-slate-700">
+        <p className="text-1sm text-slate-700">
           <strong className="text-slate-900">Note:</strong> LoanZa is a loan
           assistance service. Final loan approval and terms are subject to
           the lending partner's policies and your eligibility.

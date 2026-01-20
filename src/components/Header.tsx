@@ -43,8 +43,8 @@ const Header = () => {
 
 
   {/* Brand */}
-  <span className="relative text-xl font-extrabold tracking-wide text-slate-900">
-    <span className="text-xl font-extrabold text-slate-800">LoanZa</span>
+  <span className="relative text-xl sm:text-xl font-extrabold tracking-wide text-slate-900">
+    <span className="text-2xl font-extrabold text-slate-800">LoanZa</span>
     <sup className="text-xs ml-0.5 text-slate-500">®</sup>
   </span>
 </Link>
@@ -56,7 +56,7 @@ const Header = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`rounded-md px-4 py-2 text-sm font-medium transition-colors ${
+                className={`rounded-md px-4 py-2 text-2  ccsm font-medium transition-colors ${
   isActive(link.path)
     ? "bg-accent text-accent-foreground"
     : "text-slate-700 hover:bg-slate-100 hover:text-slate-900"

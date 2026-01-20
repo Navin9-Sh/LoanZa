@@ -25,17 +25,17 @@ className="transition-all duration-300
       }}
     >
       {/* glass / overlay */}
-      <div className="flex flex-col items-center text-center p-6 bg-white/75 backdrop-blur-sm h-full">
+      <div className="flex flex-col items-center text-center p-6 bg-white/60 backdrop-blur-sm h-full">
         <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-highlight/10">
           <Icon className="h-7 w-7 text-highlight" />
         </div>
 
-        <h3 className="text-base font-semibold text-foreground mb-2">
+        <h3 className="text-base font-bold text-foreground mb-2">
           {title}
         </h3>
       
 
-        <p className="text-sm text-muted-foreground leading-relaxed">
+        <p className="text-2sm text-muted-foreground/100 leading-relaxed">
           {description}
         </p>
 

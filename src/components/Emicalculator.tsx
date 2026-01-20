@@ -25,7 +25,7 @@ const EmiCalculator = () => {
 
           {/* Loan Amount */}
           <div className="mb-6">
-            <label className="flex justify-between text-sm font-medium text-black">
+            <label className="flex justify-between text-1sm font-medium text-black">
               <span>Loan Amount</span>
               <span>₹ {amount.toLocaleString()}</span>
             </label>
@@ -42,7 +42,7 @@ const EmiCalculator = () => {
 
           {/* Interest Rate */}
           <div className="mb-6">
-            <label className="flex justify-between text-sm font-medium text-black">
+            <label className="flex justify-between text-1sm font-medium text-black">
               <span>Interest Rate (%)</span>
               <span>{rate}%</span>
             </label>
@@ -59,7 +59,7 @@ const EmiCalculator = () => {
 
           {/* Tenure */}
           <div className="mb-8">
-            <label className="flex justify-between text-sm font-medium text-black">
+            <label className="flex justify-between text-1sm font-medium text-black">
               <span>Tenure (Years)</span>
               <span>{tenure} yrs</span>
             </label>
@@ -76,12 +76,12 @@ const EmiCalculator = () => {
 
           {/* Result */}
           <div className="rounded-xl bg-slate-100 p-6 text-center">
-            <p className="text-sm text-slate-600">Your Monthly EMI</p>
+            <p className="text-1sm text-slate-600">Your Monthly EMI</p>
             <p className="text-3xl font-bold text-slate-900 mt-1">
               ₹ {isFinite(emi) ? Math.round(emi).toLocaleString() : 0}
             </p>
 
-            <p className="mt-4 text-center text-sm text-slate-600">
+            <p className="mt-4 text-center text-1sm text-slate-600">
   Calculated your EMI?{" "}
   <Link to="/apply" className="font-semibold text-slate-900 underline">
     Apply in 1 minute

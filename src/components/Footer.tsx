@@ -20,12 +20,12 @@ const Footer = () => {
 
           {/* Brand */}
           <span className="relative text-xl font-extrabold tracking-wide text-slate-900">
-            <span className="text-xl font-extrabold text-slate-100">LoanZa</span>
+            <span className="text-2xl font-extrabold text-slate-100">LoanZa</span>
             <sup className="text-xs ml-0.5 text-slate-500">®</sup>
           </span>
         </Link>
 
-            <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
+            <p className="mt-4 text-2sm text-muted-foreground leading-relaxed">
               Your trusted partner for hassle-free loan assistance. We help you find the right loan 
               with minimal documentation and quick approvals.
             </p>
@@ -33,25 +33,25 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-sm font-semibold text-white mb-4">Quick Links</h4>
+            <h4 className="text-2sm font-semibold text-white mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/" className="text-2sm text-muted-foreground hover:text-foreground transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/services" className="text-2sm text-muted-foreground hover:text-foreground transition-colors">
                   Loan Services
                 </Link>
               </li>
               <li>
-                <Link to="/apply" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/apply" className="text-2sm text-muted-foreground hover:text-foreground transition-colors">
                   Apply for Loan
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/about" className="text-2sm text-muted-foreground hover:text-foreground transition-colors">
                   About Us
                 </Link>
               </li>
@@ -118,11 +118,11 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 border-t border-border pt-6">
-          <p className="text-center text-xs text-muted-foreground">
+          <p className="text-center text-2xs text-muted-foreground">
             © {new Date().getFullYear()} LoanZa. All rights reserved. | 
             Loan assistance services only. We are not a direct lender.
           </p>
-          <p className="mt-4 text-xs text-slate-500 text-center">
+          <p className="mt-4 text-2sm text-slate-500 text-center">
             Designed & Developed with care for seamless loan assistance.
           </p>
 
