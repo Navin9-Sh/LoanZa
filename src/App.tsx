@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Services from "./pages/Services";
 import Apply from "./pages/Apply";
 import About from "./pages/About";
+import Faqs from "@/pages/FAQs";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "@/components/ScrollToTop";
 
@@ -50,6 +51,7 @@ const App = () => (
             <Route path="/services" element={<Services />} />
             <Route path="/apply" element={<Apply />} />
             <Route path="/about" element={<About />} />
+            <Route path="/faqs" element={<Faqs />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </MainLayout>
