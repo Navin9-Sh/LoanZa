@@ -48,7 +48,7 @@ const About = () => {
 
             <div className="mt-8 grid gap-2 sm:grid-cols-3">
               <div>
-                <p className="text-3xl font-bold text-emerald-600">10,000+</p>
+                <p className="text-3xl font-bold text-emerald-600">500+</p>
                 <p className="mt-2 text-slate-600">Loan enquiries handled</p>
               </div>
 
@@ -83,9 +83,9 @@ const About = () => {
               </p>
             </div>
 
-<div className="text-center p-6 rounded-xl bg-surface-elevated border border-highlight/20 
- transition-all duration-300 ease-out 
- hover:-translate-y-2 hover:shadow-2xl">
+              <div className="text-center p-6 rounded-xl bg-surface-elevated border border-highlight/20 
+              transition-all duration-300 ease-out 
+              hover:-translate-y-2 hover:shadow-2xl">
               <div className="mb-4 flex justify-center">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                   <Target className="h-6 w-6 text-primary" />
@@ -125,30 +125,30 @@ const About = () => {
           </p>
 
           {/* Closing Note – Calm, Confident, Trust-First */}
-<div className="rounded-xl border border-border bg-gray-200 p-10 text-center">
-  <p className="text-lg font-semibold text-foreground mb-3">
-    Built on clarity. Guided by trust.
-  </p>
+        <div className="rounded-xl border border-border bg-gray-200 p-10 text-center">
+          <p className="text-lg font-semibold text-foreground mb-3">
+            Built on clarity. Guided by trust.
+          </p>
 
-  <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-    LoanZa is not a bank or a direct lender. We operate independently to help
-    you understand loan options clearly, evaluate them responsibly, and move
-    forward with confidence. Our focus is not on pushing products, but on
-    ensuring you make informed financial decisions.
-  </p>
+          <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+            LoanZa is not a bank or a direct lender. We operate independently to help
+            you understand loan options clearly, evaluate them responsibly, and move
+            forward with confidence. Our focus is not on pushing products, but on
+            ensuring you make informed financial decisions.
+          </p>
 
-  <p className="mt-5 text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-    Every recommendation we make is guided by transparency, simplicity, and
-    respect for your long-term financial well-being.
-  </p>
+          <p className="mt-5 text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+            Every recommendation we make is guided by transparency, simplicity, and
+            respect for your long-term financial well-being.
+          </p>
 
-  <p className="mt-6 font-medium text-foreground">
-    — The LoanZa Team
-  </p>
-</div>
-      </div>
-    </div>  
-  );
-};
+          <p className="mt-6 font-medium text-foreground">
+            — The LoanZa Team
+          </p>
+        </div>
+              </div>
+            </div>  
+          );
+        };
 
 export default About;
