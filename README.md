@@ -1,73 +1,125 @@
-# Welcome to your Lovable project
+# Loanza – Loan Lead Management Platform
 
-## Project info
+Loanza is a production-style **loan inquiry and lead management platform** built for finance service providers.  
+The project is designed with a strong focus on **trust, conversions, and real-world scalability**, simulating how modern loan businesses collect and manage customer applications online.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This is not a static website — it represents a **digital front office** for a finance business.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+### Public Website
+- Professional, finance-grade UI
+- Mobile-responsive layout
+- Multiple loan service categories
+- Conversion-optimized loan application form
+- Clear CTAs and trust-oriented content
+- Fast load and clean user experience
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### System Capabilities
+- Structured loan application handling
+- Prepared for backend & database integration
+- Email notification flow (user & admin ready)
+- Scalable architecture for admin dashboard
+- Clean component-based frontend
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🧠 Project Objective
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Most finance websites fail due to poor UX, low trust, and unstructured data collection.  
+Loanza addresses these gaps by focusing on:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Credibility-driven design
+- Lead-focused user flows
+- Production-ready architecture
+- Clear separation of frontend and backend responsibilities
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+## 🛠 Tech Stack
+
+- **Frontend:** React + TypeScript  
+- **Build Tool:** Vite  
+- **UI Components:** shadcn/ui  
+- **Styling:** Tailwind CSS  
+- **Architecture:** Modular & scalable  
+- **Deployment:** Lovable platform  
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/ # Reusable UI components
+├── pages/ # Application pages
+├── hooks/ # Custom React hooks
+├── styles/ # Global styles
+└── utils/ # Utility functions
+
+
+---
+
+## ⚙️ Local Development Setup
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm
+
+### Steps
+
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm install
 npm run dev
-```
+The application runs with hot-reload enabled for efficient development.
 
-**Edit a file directly in GitHub**
+🌐 Deployment
+The project is deployed using Lovable.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Steps:
 
-**Use GitHub Codespaces**
+Open the project in Lovable
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Navigate to Share → Publish
 
-## What technologies are used for this project?
+The live URL is generated instantly
 
-This project is built with:
+Custom domains can be connected via:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Project → Settings → Domains → Connect Domain
 
-## How can I deploy this project?
+🔒 Security & Best Practices
+Component-based clean architecture
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Ready for server-side validation
 
-## Can I connect a custom domain to my Lovable project?
+Environment-based configuration support
 
-Yes, you can!
+No hardcoded secrets
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+UX designed to reduce invalid submissions
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+📈 Future Enhancements
+Backend API integration
+
+Database for storing loan applications
+
+Secure admin authentication
+
+Admin dashboard for lead management
+
+Application status tracking
+
+SEO optimization for finance keywords
+
+Analytics & reporting features
+
+📄 License
+This project is created for learning, portfolio, and demonstration purposes.
+
+👤 Author
+Built with a focus on real-world finance use cases, scalable architecture, and professional UX standards.
+
